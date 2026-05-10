@@ -818,3 +818,65 @@ h1{
         translate(-60px,70px);
     }
 }
+
+/* =========================================================
+   RESPONSIVE MOVIL
+========================================================= */
+
+@media (max-width: 768px){
+
+    /* CONTENEDOR */
+
+    .contenedor{
+
+        width: 100%;
+
+        padding:
+        140px 25px 40px;
+    }
+
+    /* TITULO */
+
+    h1{
+
+        font-size: 24px;
+    }
+
+    /* DESCRIPCION */
+
+    .descripcion{
+
+        font-size: 16px;
+    }
+
+    /* BOTONES */
+
+    .btn{
+
+        font-size: 18px;
+
+        padding: 18px;
+    }
+
+    /* MASCOTA */
+
+    .mascota{
+
+        top: 20px;
+        right: 50%;
+
+        transform: translateX(50%) scale(0.75);
+
+        z-index: 5;
+    }
+
+    /* MENSAJE */
+
+    .mensaje{
+
+        font-size: 13px;
+
+        padding: 10px 16px;
+    }
+
+}
