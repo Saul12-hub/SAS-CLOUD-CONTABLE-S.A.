@@ -832,7 +832,7 @@ h1{
         width: 100%;
 
         padding:
-        140px 25px 40px;
+        180px 25px 40px;
     }
 
     /* TITULO */
@@ -858,17 +858,20 @@ h1{
         padding: 18px;
     }
 
-    /* MASCOTA */
+/* MASCOTA */
 
-    .mascota{
+.mascota{
 
-        top: 20px;
-        right: 50%;
+    top: 10px;
 
-        transform: translateX(50%) scale(0.75);
+    left: 50%;
 
-        z-index: 5;
-    }
+    transform:
+    translateX(-50%)
+    scale(0.65);
+
+    z-index: 5;
+}
 
     /* MENSAJE */
 
