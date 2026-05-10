@@ -891,16 +891,67 @@ h1{
 
         z-index: 5;
     }
+/* CUERPO MÁS PEQUEÑO */
 
-    /* MENSAJE */
+.cuerpo{
 
-    .mensaje{
+    width: 85px;
+    height: 95px;
+}
 
-        font-size: 12px;
+/* OJOS */
 
-        padding: 8px 14px;
+.ojo{
 
-        margin-bottom: 10px;
-    }
+    width: 16px;
+    height: 16px;
+}
 
+.pupila{
+
+    width: 8px;
+    height: 8px;
+}
+
+/* PICO */
+
+.pico{
+
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid #ffcc00;
+
+    margin-top: 6px;
+}
+
+/* MEJILLAS */
+
+.cuerpo::before,
+.cuerpo::after{
+
+    width: 14px;
+    height: 8px;
+
+    top: 58px;
+}
+
+/* ALAS */
+
+.brazo{
+
+    width: 18px;
+    height: 10px;
+
+    top: 62px;
+}
+
+/* MENSAJE */
+
+.mensaje{
+
+    font-size: 11px;
+
+    padding: 6px 12px;
+
+    margin-bottom: 8px;
 }
